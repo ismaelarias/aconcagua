@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+
+
 import { NavbarComponent } from './navbar/navbar.component';
 import { GraficoBarraHorizontalComponent } from './grafico-barra-horizontal/grafico-barra-horizontal.component';
 
@@ -15,7 +18,8 @@ import { GraficoBarraHorizontalComponent } from './grafico-barra-horizontal/graf
     GraficoBarraHorizontalComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class ComponentsModule { }

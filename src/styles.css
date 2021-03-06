@@ -7,3 +7,9 @@ body {
 hr {
     background-color: grey;
 }
+
+.bgimg {
+    background-image: url('assets/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
